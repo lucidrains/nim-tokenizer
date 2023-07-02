@@ -2,6 +2,10 @@
 
 Implementation of a simple BPE tokenizer, but in <a href="https://nim-lang.org/">Nim</a>. May contain <a href="https://arxiv.org/abs/1910.13267">BPE Dropout</a> too
 
+## Todo
+
+- [ ] figure out the special treatment of whitespaces as done in <a href="https://arxiv.org/abs/2305.06161">starcoder</a> and make sure it is supported
+
 ## Citations
 
 ```bibtex
